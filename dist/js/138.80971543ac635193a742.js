@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[138],{1543:function(e,n){e.exports=function(e){var n,a="";return a+='<span class="header__time--datetime">'+(null==(n=e.dateTime)?"":n)+'</span>\r\n<span class="header__time--timezone">GMT '+(null==(n=e.timeZone)?"":n)+"</span>"}}}]);
