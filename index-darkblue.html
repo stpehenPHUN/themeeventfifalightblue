@@ -847,47 +847,47 @@
         </header>
 
         <script>
-        $(document).ready(function () {
+            $(document).ready(function () {
 
-            var langCtn = $('.language__dropdown-list');
+                var langCtn = $('.language__dropdown-list');
 
-            $(".jsmenuflag").click(function () {
-                if (langCtn.hasClass('active')) {
+                $(".jsmenuflag").click(function () {
+                    if (langCtn.hasClass('active')) {
+                        langCtn.removeClass('active');
+                    } else
+                        langCtn.addClass('active');
+                })
+
+                $("#jsflagclose").click(function () {
                     langCtn.removeClass('active');
-                } else
-                    langCtn.addClass('active');
-            })
+                })
 
-            $("#jsflagclose").click(function () {
-                langCtn.removeClass('active');
-            })
+                $(".language-list").click(function () {
+                    langCtn.removeClass('active');
+                })
 
-            $(".language-list").click(function () {
-                langCtn.removeClass('active');
-            })
-
-            var productMenu = $(".topnav__product-menu");
-            $(".topnav__product-close-icn").click(function () {
-                if (productMenu.hasClass('active')) {
-                    productMenu.removeClass('active');
-                } else {
-                    productMenu.addClass('active');
-                }
-            });
-
-            productMenu.on({
-                mouseenter: function () {
-                    if (!productMenu.hasClass('active')) {
-                        productMenu.addClass('active');
-                    }
-                },
-                mouseleave: function () {
+                var productMenu = $(".topnav__product-menu");
+                $(".topnav__product-close-icn").click(function () {
                     if (productMenu.hasClass('active')) {
                         productMenu.removeClass('active');
+                    } else {
+                        productMenu.addClass('active');
                     }
-                }
+                });
+
+                productMenu.on({
+                    mouseenter: function () {
+                        if (!productMenu.hasClass('active')) {
+                            productMenu.addClass('active');
+                        }
+                    },
+                    mouseleave: function () {
+                        if (productMenu.hasClass('active')) {
+                            productMenu.removeClass('active');
+                        }
+                    }
+                });
             });
-        });
         </script>
 
         <style>
@@ -1446,34 +1446,34 @@
     <!-- _LiveChat -->
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
-            var Tawk_API = Tawk_API || {};
-            Tawk_API.visitor = {
-                name: 'mavtesters'
-            };
+        var Tawk_API = Tawk_API || {};
+        Tawk_API.visitor = {
+            name: 'mavtesters'
+        };
 
-            var Tawk_LoadStart = new Date();
-            (function () {
-                var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-                s1.async = true;
-                s1.src = 'https://embed.tawk.to/601b712ec31c9117cb75a4b8/1etlj48cq';
-                s1.charset = 'UTF-8';
-                s1.setAttribute('crossorigin', '*');
-                s0.parentNode.insertBefore(s1, s0);
-            })();
+        var Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/601b712ec31c9117cb75a4b8/1etlj48cq';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
     </script>
     <!--End of Tawk.to Script-->
 
     <script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-41422061-4']);
-  _gaq.push(['_setDomainName', '998bet.net']);
-  _gaq.push(['_trackPageview']);
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-41422061-4']);
+        _gaq.push(['_setDomainName', '998bet.net']);
+        _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
 
     </script>
 
@@ -1489,6 +1489,10 @@
 
 
     <div class="back-to-top-btn"><i class="fa fa fa-arrow-up"></i></div><div class="js-popup-ctn popup-ctn hide"></div><div id="vhs832sb6voo1778644017173" style="display: block !important;"><iframe src="about:blank" frameborder="0" scrolling="no" width="64px" height="60px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:20px !important; bottom:20px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:60px !important; min-width:64px !important; max-height:60px !important; max-width:64px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:64px !important; height:60px !important; display:block !important; z-index:1000003 !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="umdmfgmv9ur41778644017186" class="" referrerpolicy="no-referrer-when-downgrade"></iframe><iframe srcdoc="&lt;html&gt;&lt;/html&gt;" frameborder="0" scrolling="no" width="350px" height="520px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:20px !important; bottom:98px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:520px !important; min-width:350px !important; max-height:520px !important; max-width:350px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:350px !important; height:520px !important; display:none !important; z-index:1000003 !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:18px !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="yb2e38nja4ls1778644017233" class="" referrerpolicy="no-referrer-when-downgrade"></iframe><iframe src="about:blank" frameborder="0" scrolling="no" height="30px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:20px !important; bottom:30px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:45px !important; min-width:350px !important; max-height:45px !important; max-width:350px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:350px !important; height:45px !important; display:none !important; z-index:1000002 !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="u8t02c0jvdvk1778644017220" class="" referrerpolicy="no-referrer-when-downgrade"></iframe><iframe src="about:blank" frameborder="0" scrolling="no" width="360px" height="545px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:20px !important; bottom:90px; left:auto !important; position:fixed !important; border:0 !important; min-height:545px !important; min-width:360px !important; max-height:545px !important; max-width:360px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:360px !important; height:545px !important; display:none !important; z-index:auto !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="i290oq5rk1uo1778644017205" class="" referrerpolicy="no-referrer-when-downgrade"></iframe><iframe src="about:blank" frameborder="0" scrolling="no" width="124px" height="95px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:0px !important; bottom:30px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:95px !important; min-width:124px !important; max-height:95px !important; max-width:124px !important; padding:0 !important; margin:0px 0 0 0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:rotate(0deg) translateZ(0); -webkit-transform:rotate(0deg) translateZ(0); -ms-transform:rotate(0deg) translateZ(0); width:124px !important; height:95px !important; display:block !important; z-index:1000004 !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important; -moz-transform:rotate(0deg) translateZ(0); -o-transform:rotate(0deg) translateZ(0); transform-origin:0; -moz-transform-origin:0; -webkit-transform-origin:0; -o-transform-origin:0; -ms-transform-origin:0;" id="vcagmctmi9ko1778644017199" class="" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+
+    <div class="js-popup-ctn popup-ctn hide mobile" style="display: flex;"><div class="popup-overlay"></div><div class="popup-wrapper "><img class="popup-img" src="//cms.xeno9.com/data/1/uploads/friend-en.jpg?v=1779079046747"><div class="popup-close-btn js-popup-close-btn"><span class="popup-close-btn-icon fa fa-times"></span></div></div></div>
+
 </body>
 
 <style>
