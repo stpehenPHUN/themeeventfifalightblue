@@ -1502,9 +1502,15 @@
     </div>
 
     <script>
-        document.querySelector(".js-popup-close-btn").onclick = function () {
-            document.querySelector(".js-popup-ctn").style.display = "none";
-        };
+    // Close popup when click close button
+    document.querySelector('.js-popup-close-btn').addEventListener('click', function () {
+        document.querySelector('.js-popup-ctn').style.display = 'none';
+    });
+
+    // Optional: close when click overlay
+    document.querySelector('.popup-overlay').addEventListener('click', function () {
+        document.querySelector('.js-popup-ctn').style.display = 'none';
+    });
     </script>
 
 </body>
