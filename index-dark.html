@@ -1505,6 +1505,16 @@
         background: linear-gradient(180deg, #fff, #e1e1e1);
     }
 
+    .bank .bank__btn-submit, .btn_changepass, .btn_user, .btn_user-main-btn, .deposit .redeposit__button--confirm, .deposit .redeposit__button--submit, .loader-ctn, .retry-btn-ctn, .topnav__content-marquee-icn, .topnav__info-balance, .topnav__info-gamepoint, .topnav__info-name, .topnav__info-pkprogram, .vendor__live-link {
+        background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#dedede));
+        background: linear-gradient(180deg, #fafafa, #dedede);
+        color: #1e1e1e;
+    }
+
+    .topnav {
+        color: #fff;
+    }
+
     .topnav__user-wrapper {
         color: #fff;
         gap: 5px;
@@ -1518,6 +1528,10 @@
     .topnav__product-item.active {
         background: #e1e1e1;
     }
+
+        .topnav__product-item.active .topnav__product-icon:before, .topnav__product-item.active .topnav__product-title {
+            color: #1e1e1e;
+        }
 
     .topnav__product-menu.active {
         background-image: url(images/bg-9035-dark.jpg);
