@@ -1502,16 +1502,17 @@
     </div>
 
     <script>
-        const closeBtn = document.querySelector(".js-popup-close-btn");
-        const popup = document.querySelector(".js-popup-ctn");
-
-        closeBtn.addEventListener("click", function () {
-            popup.style.display = "none";
-        });
+        document.querySelector(".js-popup-close-btn").onclick = function () {
+            document.querySelector(".js-popup-ctn").style.display = "none";
+        };
     </script>
-
-
-    popup-close-btn js-popup-close-btn
+    <style>
+        .popup-close-btn {
+            position: relative;
+            z-index: 9999;
+            cursor: pointer;
+        }
+    </style>
 
 </body>
 
