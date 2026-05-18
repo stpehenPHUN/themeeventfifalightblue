@@ -1493,6 +1493,18 @@
 
     <div class="js-popup-ctn popup-ctn hide mobile" style="display: flex;"><div class="popup-overlay"></div><div class="popup-wrapper "><img class="popup-img" src="//cms.xeno9.com/data/1/uploads/friend-en.jpg?v=1779079046747"><div class="popup-close-btn js-popup-close-btn"><span class="popup-close-btn-icon fa fa-times"></span></div></div></div>
 
+    <script>
+        const closeBtn = document.querySelector(".popup-close-btn-icon");
+        const popup = document.querySelector(".popup"); // your popup class
+
+        closeBtn.addEventListener("click", function () {
+            popup.style.display = "none";
+        });
+    </script>
+
+
+    popup-close-btn js-popup-close-btn
+
 </body>
 
 <style>
